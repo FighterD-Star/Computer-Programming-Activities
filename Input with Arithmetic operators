@@ -1,0 +1,15 @@
+# Computer-Programming-Activities
+Made by Jose Miguel Arador
+
+num1 = float(input("Insert Number: ")) #diri mag input
+num2 = float(input("Insert Number: "))
+
+sumresult = num1 + num2
+diffresult = num1 - num2 #Diri nako gi gamit ang mga operators ma'am
+quoresult = num1 / num2
+proresult = num1 * num2 
+
+print("\nAddition Result: ", sumresult) #print statement for Addition 
+print("Subtraction Result: ", diffresult) #print statement for Subtraction
+print("Division Result: ", quoresult) #print statement for Division 
+print("Multiplication Result: ", proresult) #print statement for multiplication ma'am
