@@ -1,0 +1,18 @@
+num1 = int(input("First Number: "))
+num2 = int(input("Second Number: "))
+num3 = int(input("Third Number: ")) #input nako sa 5 integers
+num4 = int(input("Fourth Number: "))
+num5 = int(input("Fifth Number: "))
+
+lowest = num1 #ga himo kog basihan(assumption) nga lowest si number 1
+
+if num2 < lowest:
+    lowest = num2
+if num3 < lowest:  #dayon gina change ang value ni lowest based if mas lowest ang sunod nga value
+    lowest = num3 
+if num4 < lowest:
+    lowest = num4
+if num5 < lowest:
+    lowest = num5
+    
+print("\nThe Lowest Number Is: ", lowest)  #mao ni ang print statement kung unsay last value ni "lowest"
